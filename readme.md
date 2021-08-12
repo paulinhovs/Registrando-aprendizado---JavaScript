@@ -1,0 +1,1 @@
+Aqui vou registrar meu aprendizado quanto ao JavaScript. Mesclando aulas entre a B7 WEB de Bonieky Lacerda, Rocketseat e Guanabara.
