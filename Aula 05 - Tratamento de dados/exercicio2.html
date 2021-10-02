@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
     <style>
+
          body {
             background-color: rgb(105, 105, 173);
             color: white;
-            font: normal 20pt arial;
+            font: normal 20pt arial; 
         }
 
         h1 {
             color: yellow;
+            font-family: 'Ephesis', cursive;
         }
+
+
     </style>
 </head>
 <body>
 
+    
    
     <script>
         
@@ -47,17 +54,24 @@
             s.toLowerCase() // tudo para MINUSCULAS
 
             formatando números.
-            toFixed
+            toFixed(2) // transformando em 2 casas decimais
+            trocando a virgula pelo ponto
+            toFixed(2).replace('.', ',')
             mudando para a moeda local:
             .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // pode ser EUR, USD, ETC...
 
         */
 
-        
-        var n1 = 1545.5
-        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
-        window.alert(n1)
-        
+      /*  
+      var n1 = Number(window.prompt('Digite um número'))
+      var n2 = Number(window.prompt('Digite outro número'))
+      var s = n1 + n2
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) */
+
+       /* var nome = window.prompt('Qual é seu nome?')
+        document.write(`Olá ${nome}, Seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em maiusculas é ${nome.toUpperCase()} <br/>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`) */
     </script>
 
 
